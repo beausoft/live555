@@ -15,6 +15,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mediaServer", "mediaServer\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "proxyServer", "proxyServer\proxyServer.vcxproj", "{25713F38-5C10-4E05-8B70-CA70C3239552}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "testProgs", "testProgs", "{43E9279C-4A0A-4151-9A17-298FA0295A65}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openRTSP", "testProgs\openRTSP\openRTSP.vcxproj", "{48C5767A-F0B0-4E1F-B655-74328B05C6E3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "playCommon", "testProgs\playCommon\playCommon.vcxproj", "{5F995256-262A-4BE2-86CF-E25E1181E126}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,9 +77,29 @@ Global
 		{25713F38-5C10-4E05-8B70-CA70C3239552}.Release|x64.Build.0 = Release|x64
 		{25713F38-5C10-4E05-8B70-CA70C3239552}.Release|x86.ActiveCfg = Release|Win32
 		{25713F38-5C10-4E05-8B70-CA70C3239552}.Release|x86.Build.0 = Release|Win32
+		{48C5767A-F0B0-4E1F-B655-74328B05C6E3}.Debug|x64.ActiveCfg = Debug|x64
+		{48C5767A-F0B0-4E1F-B655-74328B05C6E3}.Debug|x64.Build.0 = Debug|x64
+		{48C5767A-F0B0-4E1F-B655-74328B05C6E3}.Debug|x86.ActiveCfg = Debug|Win32
+		{48C5767A-F0B0-4E1F-B655-74328B05C6E3}.Debug|x86.Build.0 = Debug|Win32
+		{48C5767A-F0B0-4E1F-B655-74328B05C6E3}.Release|x64.ActiveCfg = Release|x64
+		{48C5767A-F0B0-4E1F-B655-74328B05C6E3}.Release|x64.Build.0 = Release|x64
+		{48C5767A-F0B0-4E1F-B655-74328B05C6E3}.Release|x86.ActiveCfg = Release|Win32
+		{48C5767A-F0B0-4E1F-B655-74328B05C6E3}.Release|x86.Build.0 = Release|Win32
+		{5F995256-262A-4BE2-86CF-E25E1181E126}.Debug|x64.ActiveCfg = Debug|x64
+		{5F995256-262A-4BE2-86CF-E25E1181E126}.Debug|x64.Build.0 = Debug|x64
+		{5F995256-262A-4BE2-86CF-E25E1181E126}.Debug|x86.ActiveCfg = Debug|Win32
+		{5F995256-262A-4BE2-86CF-E25E1181E126}.Debug|x86.Build.0 = Debug|Win32
+		{5F995256-262A-4BE2-86CF-E25E1181E126}.Release|x64.ActiveCfg = Release|x64
+		{5F995256-262A-4BE2-86CF-E25E1181E126}.Release|x64.Build.0 = Release|x64
+		{5F995256-262A-4BE2-86CF-E25E1181E126}.Release|x86.ActiveCfg = Release|Win32
+		{5F995256-262A-4BE2-86CF-E25E1181E126}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{48C5767A-F0B0-4E1F-B655-74328B05C6E3} = {43E9279C-4A0A-4151-9A17-298FA0295A65}
+		{5F995256-262A-4BE2-86CF-E25E1181E126} = {43E9279C-4A0A-4151-9A17-298FA0295A65}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4471E3CE-E08E-43CE-ABD6-44F508EE9C96}

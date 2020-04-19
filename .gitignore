@@ -5,3 +5,5 @@
 /proxyServer/x64
 /UsageEnvironment/x64
 /.vs
+/testProgs/openRTSP/x64
+/testProgs/playCommon/x64
